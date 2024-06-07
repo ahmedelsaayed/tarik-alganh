@@ -1,0 +1,40 @@
+.tafsir{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: green 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+    height: 400px;
+    margin-bottom: 20px;
+    font-family:"cairo";
+    text-align: center;
+}
+.tafsir h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0px ;
+}
+@media screen and (max-width:480px) {
+.tafsir{
+    width: 80%;
+    margin: auto;
+    height:100vh;
+    margin-bottom: 20px;
+}
+    
+      }
+      @media screen and (min-width:481px) and (max-width:768px) {
+        
+        .tafsir{
+            width: 80%;
+            margin: auto;
+            height:100vh;
+            margin-bottom: 20px;
+        }
+    }
